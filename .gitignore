@@ -1,0 +1,73 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# Yarn cache (to prevent huge zip files like the Skia issue)
+.yarn/cache/
+
+# iOS build artifacts
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+
+# Android build artifacts
+android/.gradle/
+android/app/build/
+android/build/
+
+# Xcode user data & workspace settings
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcodeproj/project.xcworkspace/
+
+# Realm (if you're using Realm DB)
+*.realm
+*.realm.lock
+
+# Firebase keys (if manually included)
+firebase-service-account.json
+
+# Skia build output (if any)
+.skia/
+
+# VSCode settings (optional)
+.vscode/
+
+# Test coverage reports
+coverage/
+

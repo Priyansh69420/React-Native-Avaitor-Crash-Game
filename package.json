@@ -1,0 +1,32 @@
+{
+  "name": "aviatorgame",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@shopify/react-native-skia": "^2.0.2",
+    "eas-cli": "^16.8.0",
+    "expo": "~53.0.9",
+    "expo-dev-client": "~5.1.8",
+    "expo-gl": "^15.1.5",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-gifted-charts": "^1.4.61",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-reanimated": "^3.18.0",
+    "react-native-svg": "^15.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
