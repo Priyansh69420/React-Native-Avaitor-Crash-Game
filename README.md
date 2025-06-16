@@ -3,8 +3,8 @@ Experience the adrenaline rush of two of the most popular betting games in one s
 
 Key Features
 Dual Game Modes:
-Aviator Mode: Watch as your multiplier ascends with a virtual plane—cash out before it flies away to secure your winnings
-Crash Mode: Bet on when the multiplier will crash in this fast-paced, high-risk game variant
+Aviator Mode:- Watch as your multiplier ascends with a virtual plane—cash out before it flies away to secure your winnings
+Crash Mode:- Bet on when the multiplier will crash in this fast-paced, high-risk game variant
 
 Real-Time Multiplayer Experience:
 Live global leaderboards showcasing top players
