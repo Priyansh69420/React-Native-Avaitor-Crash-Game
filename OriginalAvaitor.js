@@ -84,7 +84,7 @@ export default function App() {
       planeX.value = canvasWidth * 0.2;
       planeY.value = canvasHeight;
       backgroundOffset.value = 0;
-      cancelAnimation(backgroundOffset); // Stop background animation
+      cancelAnimation(backgroundOffset); 
     } else if (gameState === 'running') {
       if (betPlaced && hasCashedOut.current) {
         setMssg('You Cashed Out! 🤑');
@@ -93,7 +93,7 @@ export default function App() {
       } else {
         setMssg('No bet placed...');
       }
-      // Start background scrolling
+
       backgroundOffset.value = withRepeat(
         withSequence(
           withTiming(-backgroundWidth, {
@@ -104,7 +104,7 @@ export default function App() {
         ),
         -1
       );
-      // Animate plane's Y position
+
       planeY.value = withTiming(canvasHeight / 2, {
         duration: 5000,
         easing: Easing.linear,
